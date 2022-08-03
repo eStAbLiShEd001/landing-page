@@ -108,7 +108,7 @@ a {
     padding-top: 5%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
     header {
     max-height: 40pc;
     }
@@ -167,14 +167,24 @@ a {
 
 }
 
-/* @media (min-width: 500px) {
+@media (min-width: 500px) {
     header {
-        height: 50pc;
+        height: 60pc;
         }
         .under-services {
-             margin: 0 1%;
+             margin: 6% 1%;
             background-color: rgb(255, 225, 225);
             padding: 5% 5%; 
             height: 32pc;
         }
-} */
+        .fff {
+            display: flex;
+            justify-content: space-around;
+        }
+        .contact {
+            padding:0;
+        }
+        .contact h3 {
+            padding:0;
+        }
+}
