@@ -154,7 +154,7 @@ a {
         padding: 2% 0;
         text-align: center;
     }
-    .ff {
+    .fff {
         display: flex;
         justify-content: space-around;
     }
@@ -172,9 +172,9 @@ a {
         height: 50pc;
         }
         .under-services {
-            margin: 0 1%;
+             margin: 0 1%;
             background-color: rgb(255, 225, 225);
             padding: 5% 5%; 
             height: 32pc;
         }
-}  */
+} */
