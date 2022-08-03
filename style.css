@@ -1,8 +1,15 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Averta, sans-serif;
+
 }
+
 header {
     background-color: rgb(255, 225, 225);
     height: 35pc;
