@@ -7,9 +7,12 @@
 nav a, nav p {
     display: none;
 }
+.my-img {
+    width: 100%;
+}
 .header-container {
     text-align: center;
-    padding: 0 5%;
+    /* padding: 0 5%; */
 }
 .header-container .p-1 {
     color: red;
@@ -17,8 +20,17 @@ nav a, nav p {
 .header-container h1 {
     margin-top: 2%;
 }
+.my-line {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.line-1 {
+    width: 30%;
+}
 .header-container .p-2 {
     margin-top: 6%;
+    padding: 0 5%;
 } 
 .header-container button {
     margin-top: 8%;
@@ -27,6 +39,15 @@ nav a, nav p {
     color: white;
     border-radius: 30px;
     border: none;
+}
+.section-wire-1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20%;
+}
+.wire-1 {
+    width: 20%;
 }
 .hr-1 {
     margin-top: 20%;
@@ -41,13 +62,27 @@ nav a, nav p {
     padding: 0 5%;
 
 }
+.zuri-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .hr-2 {
     margin: 10% 5% 0 5%;
 }
+.section-wire-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+.wire-3-child {
+    width: 30%;
+}
 
 .section-3 .p-3 {
-    padding-top: 20%;
+    padding-top: 2%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -58,20 +93,35 @@ nav a, nav p {
 .section-4 {
     display: block;
 }
+
+.curve-child-1 {
+    width: 100%;
+} 
 .section-4-child2 {
     background-color: red;
-    padding: 10% 5%;
-    margin: 2% 4%;
+    display: flex;
+    flex-direction: row-reverse;
     border-radius: 10px;
-
+    margin: 5% 4%;
+}
+.trial {
+    padding: 10% 5%;
 }
 .section-4-child {
     background-color: white;
     box-shadow: 0px 0px 5px #000, 0px 0px 5px;
-    padding: 10% 5%;
+    display: flex;
+    flex-direction: row-reverse;
     border-radius: 10px;
     margin: 5% 4%;
 }
+.trial-2, .trial-3, .trial-4, .trial-5, .trial-6 {
+    padding: 10% 5%;
+}
+.curve-child-2 {
+    width: 100%;
+} 
+
 .section-4-child h3, p {
     padding-top: 5%;
 }
@@ -84,6 +134,14 @@ nav a, nav p {
     color: white;
     padding-left: 5%;
     padding-right: 5%;
+}
+.wire-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-wire-5 {
+    width: 30%;
 }
 .section-5 button {
     margin-top: 8%;
@@ -100,12 +158,38 @@ nav a, nav p {
     gap: 5%;
 }
 .under-section-5-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
     border: 2px solid white;
-    padding: 5% 10%;
-    border-radius: 20px;
+    padding: 3% 9%;
+    border-radius: 50px;
     margin: 5% 0;
 }
+.teamwork-img {
+    width: 60%;
+}
+.section-5-img-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0 15% 0;
+}
+.section-5-img {
+    width: 100%;
+}
+.section-6-img-main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 5% 10% 5%;
+}
+.section-6-img {
+    width: 15%;
+}
+
+
 .section-6 {
     padding-top: 20%;
     padding-left: 5%;
@@ -164,4 +248,17 @@ nav a, nav p {
 }
 .h-5 {
     margin: 8% 5%;
+}
+
+
+
+
+
+
+
+
+/* MY RESPONSIVENESS */
+@media (min-width: 900px) {
+
+
 }
