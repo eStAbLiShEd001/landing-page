@@ -174,9 +174,9 @@ a {
 
 }
 
-@media (min-width: 500px) {
+@media (min-width: 500px) and (max-width: 950px) {
     header {
-        height: 65pc;
+        height: 70pc;
         }
         .under-services {
              margin: 6% 1%;
@@ -194,5 +194,8 @@ a {
         .contact h3 {
             padding:0;
         }
-
+        .services {
+            margin-top: 5%;
+            flex-direction: column;
+        }
 }
