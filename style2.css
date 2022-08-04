@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav a, nav p {
+    display: none;
+}
+.header-container {
+    text-align: center;
+    padding: 0 5%;
+}
+.header-container .p-1 {
+    color: red;
+}
+.header-container h1 {
+    margin-top: 2%;
+}
+.header-container .p-2 {
+    margin-top: 6%;
+} 
+.header-container button {
+    margin-top: 8%;
+    padding: 3% 6%;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+.hr-1 {
+    margin-top: 20%;
+    margin: 10% 5% 0 5%;
+}
+.section-2 h1 {
+    margin-top: 5%;
+    text-align: center;
+    padding: 0 5%;
+}
+.section-2 p {
+    padding: 0 5%;
+
+}
+
+.hr-2 {
+    margin: 10% 5% 0 5%;
+}
+
+.section-3 .p-3 {
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.section-3 .h-3 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.section-4 {
+    display: block;
+}
+.section-4-child2 {
+    background-color: red;
+    padding: 10% 5%;
+    margin: 2% 4%;
+    border-radius: 10px;
+
+}
+.section-4-child {
+    background-color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 5px;
+    padding: 10% 5%;
+    border-radius: 10px;
+    margin: 5% 4%;
+}
+.section-4-child h3, p {
+    padding-top: 5%;
+}
+.section-4-child2 h3, p {
+    padding-top: 5%;
+}
+.section-5 {
+    padding-top: 20%;
+    background-color: red;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.section-5 button {
+    margin-top: 8%;
+    padding: 3% 9%;
+    background-color: white;
+    color: red;
+    border-radius: 30px;
+    border: none;
+}
+.under-section-5 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 5%;
+    gap: 5%;
+}
+.under-section-5-child {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5% 10%;
+    border-radius: 20px;
+    margin: 5% 0;
+}
+.section-6 {
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.section-6 .h-4, .h-01 {
+    padding: 0 5%;
+}
+
+.section-6-child {
+    background-color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 5px;
+    padding: 10% 5%;
+    border-radius: 10px;
+    margin: 7% 4%;
+}
+.section-6-child p {
+    padding-bottom: 10%;
+}
+.after-section-6 {
+    text-align: center;
+}
+.after-section-6-btn {
+    text-align: center;
+    margin-top: 8%;
+    padding: 3% 8%;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+.hr-3 {
+    margin: 15% 5%;
+}
+.section-7  {
+    padding: 0 5%;
+}
+.section-7 .p-4, .ok {
+    text-align: center;
+}
+.section-7 .p-5 {
+    text-align: center;
+    padding-top: 10%;
+}
+.under-section-7 {
+    text-align: center;
+}
+.under-section-7 button {
+    text-align: center;
+    margin-top: 2%;
+    padding: 3% 8%;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+.h-5 {
+    margin: 8% 5%;
+}
