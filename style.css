@@ -194,8 +194,5 @@ a {
         .contact h3 {
             padding:0;
         }
-        .services {
-            margin-top: 5%;
-            flex-direction: column;
-        }
+
 }
