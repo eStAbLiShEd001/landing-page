@@ -117,7 +117,7 @@ a {
 
 @media (min-width: 900px) {
     header {
-    max-height: 40pc;
+    height: 50pc;
     }
     body {
         padding: 0;
@@ -155,7 +155,7 @@ a {
         margin: 0 1%;
         background-color: rgb(255, 225, 225);
         padding: 5% 5%;
-        height: 27pc;
+        height: 30pc;
     }
     footer {
         padding: 2% 0;
