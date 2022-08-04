@@ -12,7 +12,7 @@
 
 header {
     background-color: rgb(255, 225, 225);
-    height: 35pc;
+    height: 40pc;
 }
  body {
     padding: 0 2%;
@@ -73,7 +73,7 @@ main {
     margin: 5% 0;
     background-color: rgb(255, 225, 225);
     padding: 20% 5%;
-    height: 25pc;
+    height: 30pc;
 }
 .under-services h5 {
     background-color: whitesmoke;
