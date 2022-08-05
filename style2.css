@@ -13,8 +13,7 @@ nav a, nav p {
 .hero-pic {
     display: none;
 }
-.container-child-maleface {
-}
+
 .maleface {
     width: 10%;
 }
@@ -293,6 +292,9 @@ nav a, nav p {
     }
     .header-container-text .p-1, .p-2 {
         font-size: 1.0rem;
+    }
+    .hero-pic {
+        display: block;
     }
     .maleface {
         width: 300%;
