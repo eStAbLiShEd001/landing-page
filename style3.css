@@ -117,6 +117,7 @@ main p {
 }
 aside {
     background-color: rgb(240, 239, 239);
+    padding-bottom: 25%;
 }
 aside h1 {
     padding: 20% 5% 10% 5%;
@@ -128,6 +129,7 @@ aside h1 {
     margin: 0 5%;
     gap: 5%;
     text-align: center;
+
 }
 
 .skills {
@@ -135,6 +137,7 @@ aside h1 {
     background-color: white;
     padding: 12% 9%;
     border-radius: 10px;
+
 }
 .grid-layer-2 {
     display: grid;
@@ -142,10 +145,57 @@ aside h1 {
     margin: 0 5%;
     gap: 5%;
     text-align: center;
+
 }
 .skills-2 {
     margin: 0.5% 0;
     background-color: white;
-    padding: 9% 9%;
+    padding: 5% 5%;
     border-radius: 10px;
+    align-self: center;
+}
+summary {
+    background-color: rgb(240, 233, 194);
+    background-image: url(images/rope.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+summary h1 {
+    padding: 15% 5%;
+    text-align: center;
+}
+.talent-reason {
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 5%; */
+    text-align: center;
+
+}
+.reasons {
+    background-color: white;
+    padding: 10% 8%;
+    margin: 3% 5%;
+}
+.reasons p {
+    padding: 5% 0;
+}
+.summary-button {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 5%;
+}
+.H-T {
+    padding: 2% 10%;
+    border-bottom-right-radius: 10px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+.J-T {
+    padding: 2% 10%;
+    border-bottom-right-radius: 10px;
+    background-color: gray;
+    color: white;
+    border: 1px solid gray;
 }
