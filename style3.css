@@ -14,7 +14,7 @@ nav {
     align-items: center;
     background-color: rgb(248, 222, 222);
     width: 100%;
-    height: 3pc;
+    height: 5pc;
     position: fixed;
 }
 .talent-img-div {
@@ -30,19 +30,19 @@ nav .talent-img {
 nav button {
     background-color: red;
     color: white;
-    padding: 10% 30%;
+    padding: 15% 38%;
     white-space: nowrap;
     border: none;
     cursor: pointer;
     border-bottom-right-radius: 8px;
 }
 header {
-    padding-top: 15%;
+    padding-top: 30%;
 }
 header h1 {
     text-align: center;
     font-size: 3rem;
-    padding: 0 5%;
+    padding: 10% 5% 0 5%;
 }
 header p {
     text-align: center;
@@ -66,7 +66,7 @@ header p {
     padding-top: 5%;
 }
 .H-M {
-    padding: 2% 5%;
+    padding: 2% 10%;
     border-bottom-right-radius: 10px;
     background-color: red;
     color: white;
@@ -74,7 +74,7 @@ header p {
     margin: 0 2%;
 }
 .T-L {
-    padding: 2% 5%;
+    padding: 2% 10%;
     border-bottom-right-radius: 10px;
     background-color: gray;
     color: white;
@@ -166,11 +166,7 @@ aside h1 {
 }
 summary {
     background-color: rgb(240, 233, 194);
-    background-image: url(images/rope.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    /* background-size: contain; */
-    background-size: auto;
+    background-size: contain;
 }
 summary h1 {
     padding: 15% 5%;
@@ -178,8 +174,11 @@ summary h1 {
 }
 .talent-reason {
     display: flex;
+    background-image: url(images/rope.svg);
     flex-direction: column;
-    /* padding: 0 5%; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 18% 18%;
     text-align: center;
 
 }
@@ -201,7 +200,7 @@ summary h1 {
     justify-content: center;
 }
 .H-T {
-    padding: 2% 5%;
+    padding: 2% 8%;
     border-bottom-right-radius: 8px;
     background-color: red;
     color: white;
@@ -209,7 +208,7 @@ summary h1 {
     margin: 15% 2%;
 }
 .J-T {
-    padding: 2% 5%;
+    padding: 2% 8%;
     border-bottom-right-radius: 8px;
     background-color: gray;
     color: white;
@@ -261,7 +260,7 @@ footer {
     margin: 8% 3% 3% 3%;
 }
 .copy {
-    padding-bottom: 3%;
+    padding-bottom: 5%;
 }
 span {
     color: red;
