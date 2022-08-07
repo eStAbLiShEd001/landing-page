@@ -59,8 +59,8 @@ header p {
 }
 .thick2 {
     position: absolute;
-    right: 18%;
-    top: 26%;
+    right: 15%;
+    top: 27%;
 }
 .button {
     display: flex;
@@ -91,7 +91,8 @@ header p {
     width: 100%;
 }
 main {
-    background-color: antiquewhite;
+    background-image: url(images/IMG-20220806-WA0000.jpg);
+    /* background-color: antiquewhite; */
 }
 main h1 {
     padding: 10% 5% 0 5%;
