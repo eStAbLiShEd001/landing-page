@@ -59,7 +59,8 @@ header p {
 }
 .thick2 {
     position: absolute;
-    top: 27%;
+    right: 18%;
+    top: 26%;
 }
 .button {
     display: flex;
