@@ -5,7 +5,7 @@
 }
 nav {
     display: flex;
-    background-color: rgb(252, 229, 229);
+    background-color: rgb(255, 255, 255);
     height: 5pc;
     position: fixed;
     align-items: center;
@@ -424,7 +424,9 @@ footer {
 /* MY RESPONSIVENESS */
 @media  (min-width: 1000px) {
      header {
-        display: flex;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        /* display: flex; */
         /* justify-content: space-between; */
         padding: 10% 3% 0 3%;
     }  
@@ -436,7 +438,8 @@ footer {
 
     }
     .maleface {
-        width: 300%;
+        display: block;
+        width: 100%;
     }
     .container-child-maleface {
         align-self: flex-end;
@@ -452,7 +455,7 @@ footer {
         height: 50%;
     }
     .my-img {
-        width: 60%;
+        width: 80%;
     }
     .hero-pic {
         display: contents;
@@ -462,13 +465,14 @@ footer {
         width: 50%;
     }
     .section-wire-1 {
-        padding-left: 2%;
+        margin-right: 10%;
+        /* padding-left: 2%; */
     }
     .wire-1 {
-        width: 50%;
+        width: 40%;
     }
     .main button {
-        /* padding: 5% 15%; */
+        padding: 3% 9%;
         font-size: 1rem;
     }
     .hr-1 {
@@ -548,16 +552,16 @@ footer {
     }
     .trial-2 h1, .trial-3 h1, .trial-4 h1, .trial-5 h1, .trial-6 h1 {
         font-size: 5rem;
+    }
 
-    }
-    .section-5-img-main {
+    /* .section-5-img-main {
         display: block;
         padding: 0;
-    }
-    .section-6-img-main {
+    } */
+    /* .section-6-img-main {
         display: block;
         padding: 0;
-    }
+    } */
     .section-6 .h-4, .h-01 {
         padding: 0;
     }
